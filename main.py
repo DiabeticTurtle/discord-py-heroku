@@ -2,7 +2,7 @@ import os
 from discord.ext import commands
 from utils.CustomBot import CustomBot
 
-bot = CustomBot(command_prefix="!"intents = discord.Intents.all(),
+bot = CustomBot(command_prefix="!" intents = discord.Intents.all(),
                 allowed_mentions = discord.AllowedMentions().none(),
                 activity = discord.Activity(type = discord.ActivityType.listening, name = "!help | !rank"))
 bot.embed_color = 0x2F3136

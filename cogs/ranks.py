@@ -4,7 +4,7 @@ import discord
 from discord.ext import commands, tasks
 from discord.ext.commands.cooldowns import BucketType
 import random
-from disrank.generator import Generator
+from disrank import Generator
 import asyncio
 import operator
 
